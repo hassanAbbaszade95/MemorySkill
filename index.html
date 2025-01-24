@@ -9,18 +9,22 @@
 </head>
 
 <body>
-    <h1 class="TitleGame">Test Your Memory Skill</h1>
-    <div class="game-header">
-        <div id="timer">Time: 45s</div>
-        <button id="startButton">Start Game</button>
+    <div class="contaier">
+        <h1 class="TitleGame">Test Your Memory Skill</h1>
+        <div class="game-header">
+            <div id="timer">Time: 45s</div>
+            <button id="startButton">Start Game</button>
+        </div>
+        <div class="game-board" id="gameBoard"></div>
+        <div id="messageBox" class="hidden">
+            <p>Congratulations! You won!</p>
+        </div>
+        <div id="messageBoxLose" class="hidden">
+            <p>sorry! You lose this time!</p>
+        </div>
+
     </div>
-    <div class="game-board" id="gameBoard"></div>
-    <div id="messageBox" class="hidden">
-        <p>Congratulations! You won!</p>
-    </div>
-    <div id="messageBoxLose" class="hidden">
-        <p>sorry! You lose this time!</p>
-    </div>
+
     <script src="js/js.js"></script>
 </body>
 
