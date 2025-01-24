@@ -8,6 +8,10 @@ body {
     margin: 0;
     background-color: #f0f0f0;
 }
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
 
 .TitleGame {
     margin-bottom: 200px;
